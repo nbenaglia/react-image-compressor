@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - docker build -t myapp .
+  build:
+    commands:
+      - npm test
+artifacts:
+  files:
+    - '**/*'
