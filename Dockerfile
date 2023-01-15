@@ -1,5 +1,5 @@
 # the basic container
-FROM node:alpine3.10
+FROM node:19-alpine3.16
 
 # who maintains this huge docker image
 LABEL maintainer "nbenaglia@somedomain.com"
